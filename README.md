@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # vue-hackernews-2.0
 
 HackerNews clone built with Vue 2.0 + vue-router + vuex, with server-side rendering.
@@ -44,3 +45,7 @@ npm run build
 # serve in production mode
 npm start
 ```
+=======
+# Jetbook
+Flight ticket book with Kiwi API + Vuejs
+>>>>>>> db2c4e487f53e7841a2fd4bb50ac62320b899e77
