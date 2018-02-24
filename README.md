@@ -1,6 +1,5 @@
 # Jetbook
-Flight ticket search with Kiwi API + Vuejs
-
+Jetbook a learning project base on Vue Hacker News and use Kiwi API + Vuejs + Element UI to build flights search page.
 <img src="https://res.cloudinary.com/ditajaax2/image/upload/v1519465258/jetvbook-home_jqrpkz.png">
 <img src="https://res.cloudinary.com/ditajaax2/image/upload/v1519465351/jetbook-result_nat1g4.png">
 
