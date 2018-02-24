@@ -1,16 +1,14 @@
 # Jetbook
 Flight ticket book with Kiwi API + Vuejs
 
+<img src="https://res.cloudinary.com/ditajaax2/image/upload/v1519465258/jetvbook-home_jqrpkz.png">
+<img src="https://res.cloudinary.com/ditajaax2/image/upload/v1519465351/jetbook-result_nat1g4.png">
+
 ## Features
 
-- Server Side Rendering
-  - Vue + vue-router + vuex working together
-  - Server-side data pre-fetching
-  - Client-side state & DOM hydration
-- Single-file Vue Components
-  - Hot-reload in development
-  - CSS extraction for production
-- Real-time List Updates with FLIP Animation
+- Search flights from Kiwi API
+- See detail route of flight
+- Filter flights option
 
 ## Build Setup
 
