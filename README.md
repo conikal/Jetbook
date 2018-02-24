@@ -1,5 +1,5 @@
 # Jetbook
-Flight ticket book with Kiwi API + Vuejs
+Flight ticket search with Kiwi API + Vuejs
 
 <img src="https://res.cloudinary.com/ditajaax2/image/upload/v1519465258/jetvbook-home_jqrpkz.png">
 <img src="https://res.cloudinary.com/ditajaax2/image/upload/v1519465351/jetbook-result_nat1g4.png">
