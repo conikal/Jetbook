@@ -1,6 +1,9 @@
 # Jetbook
 Jetbook a learning project base on Vue Hacker News and use Kiwi API + Vuejs + Element UI to build flights search page.
+
+Homepage
 <img src="https://res.cloudinary.com/ditajaax2/image/upload/v1519465258/jetvbook-home_jqrpkz.png">
+Fligh results
 <img src="https://res.cloudinary.com/ditajaax2/image/upload/v1519465351/jetbook-result_nat1g4.png">
 
 ## Features
