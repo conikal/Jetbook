@@ -25,24 +25,24 @@
 				<!-- date edit -->
 				<el-col :span="16">
 					<el-date-picker
-            v-model="departDate"
-            @change="handleDepart"
-            :picker-options="quickPicker"
-            :editable="false"
-            format="ddd, dd MMM yyyy"
-            class="date"
-            placeholder="Depart date">
-          </el-date-picker>
-          <i class="el-icon-arrow-swap"></i>
-          <el-date-picker
-            v-model="returnDate"
-            @change="handleReturn"
-            :picker-options="returnPicker"
-            :editable="false"
-            format="ddd, dd MMM yyyy"
-            class="date"
-            style="margin-left: 15px"
-            placeholder="None return">
+			            v-model="departDate"
+			            @change="handleDepart"
+			            :picker-options="quickPicker"
+			            :editable="false"
+			            format="ddd, dd MMM yyyy"
+			            class="date"
+			            placeholder="Depart date">
+			          </el-date-picker>
+			          <i class="el-icon-arrow-swap"></i>
+			          <el-date-picker
+			            v-model="returnDate"
+			            @change="handleReturn"
+			            :picker-options="returnPicker"
+			            :editable="false"
+			            format="ddd, dd MMM yyyy"
+			            class="date"
+			            style="margin-left: 15px"
+			            placeholder="None return">
 			    </el-date-picker>
 				</el-col>
 
@@ -56,7 +56,7 @@
 					    <i :class="stopButton.icon"></i> {{ stopButton.label }}
 					  </el-button>
 					  <el-dropdown-menu slot="dropdown">
-					    <el-dropdown-item v-for="stop in stopsData" :command="stop.value">
+					    <el-dropdown-item v-for="stop in stopsData" :key="stop.id" :command="stop.value">
 					    	<i :class="stop.icon"></i> {{ stop.label }}
 					    </el-dropdown-item>
 					  </el-dropdown-menu>

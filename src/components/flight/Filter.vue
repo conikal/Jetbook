@@ -70,7 +70,7 @@
 	    <!-- Departure Fly days -->
 		  <div class="fly-days">
 		  	<el-checkbox-group v-model="flyDays" @change="handleFlyDays" size="mini">
-			    <el-checkbox v-for="(day, id) in flyDaysOptions" :label="day.value">{{ day.label }}</el-checkbox>
+			    <el-checkbox v-for="(day, id) in flyDaysOptions" :key="id" :label="day.value">{{ day.label }}</el-checkbox>
 			  </el-checkbox-group>
 		  </div>
 		</div>
@@ -110,7 +110,7 @@
 	    <!-- Return Fly days -->
 		  <div class="fly-days">
 		  	<el-checkbox-group v-model="returnFlyDays" @change="handleReturnFlyDays" size="mini">
-			    <el-checkbox v-for="(day, id) in returnFlyDaysOptions" :label="day.value">{{ day.label }}</el-checkbox>
+			    <el-checkbox v-for="(day, id) in returnFlyDaysOptions" :key="id" :label="day.value">{{ day.label }}</el-checkbox>
 			  </el-checkbox-group>
 		  </div>
 		</div>

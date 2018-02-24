@@ -11,6 +11,7 @@
 					<el-col :span="18">
 						<el-card class="box-card">
 						<item v-for="(item, index) in flights.data"
+							:key="index"
 							:index="index"
 							:id="item.id"
 							:item="item"></item>
